@@ -11,7 +11,7 @@ public class testScript
     public static void main(String[] args) throws MalformedURLException
     {
         DesiredCapabilities capabilities = new DesiredCapabilities();
-        capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "9e1d0deb");
+
         capabilities.setCapability(MobileCapabilityType.PLATFORM_NAME, "Android");
         //capabilities.setCapability("appPackage", "com.whatsapp");
         //capabilities.setCapability("appActivity", "com.whatsapp.Main");
